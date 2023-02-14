@@ -1,11 +1,6 @@
 // To parse this JSON data, do
-//
-//     final channelInfo = channelInfoFromJson(jsonString);
-
 import 'dart:convert';
-
-
-
+import 'package:flutter/material.dart';
 class ChannelInfo {
   ChannelInfo({
     this.kind,

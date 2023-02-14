@@ -39,27 +39,33 @@ dependencies:
   flutter_screenutil: any
   get: any
   get_it: ^7.2.0
-  flutter_svg:
-  firebase_core: ^1.20.0
+  firebase_core: ^2.4.1
+  shimmer: ^2.0.0
   cloud_firestore: any
   firebase_storage:
   modal_progress_hud_nsn: ^0.1.0-nullsafety-1
   dotted_border: any
-  firebase_auth: ^3.6.2
-  provider: any
+  firebase_auth: ^4.0.0
   shared_preferences:
   flutter_local_notifications:
+  flutter_svg:
   cross_file: ^0.3.3+2
   file_picker: ^5.2.4
   image_picker: ^0.8.6
-  flutter_downloader: ^1.9.1
-  firebase_core_platform_interface: 4.5.1
+  flutter_downloader: ^1.10.0
   youtube_player_flutter: ^8.1.2
+  url_launcher: any
   path_provider: ^2.0.11
   flick_video_player: ^0.5.0
   dart_vlc: ^0.4.0
   cached_network_image: ^2.2.0+1
-  http: ^0.13.5
+  http:
+  location: ^4.4.0
+  provider: any
+  intl: ^0.17.0
+  adhan: ^2.0.0-nullsafety.1
+  google_maps_flutter: ^2.2.3
+  firebase_auth_web: ^5.2.3
 
 
 dev_dependencies:
@@ -86,9 +92,14 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/earns-100-now-logo.png
-    - assets/pngtree-facebook-social-media-icon-png-image_6315968.png
     - assets/images/
+    - assets/earns-100-now-logo.png
+    - assets/images/tariqMasood.png
+    - assets/images/qiblads.svg
+    - assets/images/book.png
+    - assets/images/starred.svg
+    - assets/pngtree-facebook-social-media-icon-png-image_6315968.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
